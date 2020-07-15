@@ -1,0 +1,252 @@
+body{
+    font-family:"Sans-serif";
+    text-align: center;
+  }
+
+  /* Home Screen */
+.head-cart{
+position: absolute;
+top:1rem;
+right:4.2rem;
+font-size:1rem;
+cursor: "pointer";
+}
+  .link{
+      position:absolute;
+      top:1rem;
+      left:2rem;
+       cursor: "pointer";
+       font-size: 1rem;
+  }
+  .sign{
+      font-size: 1rem;
+  }
+  .Signout{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    font-size:1rem;
+    border:0;
+    color:rgba(255,255,255,.5);
+    background-color: black;
+    border-radius: 1.5rem;
+  }
+  .header-links a {
+      color: white
+  }
+  .color-change a{
+      background-color: white;
+  }
+  .image{
+    width:10rem;
+    height:5.6rem;
+  }
+  .img-mob{
+    height: 6rem;
+  }
+  .badge{
+      font-size: 0.8rem;
+  }
+
+  .container-fluid{
+    margin-top:0;
+    padding-top:0;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .colored-section{
+    background-color: #000;
+      color:white;
+  }
+  /* TITLE */
+  #title .container-fluid{           /*HIERARCHICAL SELECTORS*/
+    padding-bottom: 18%;
+    padding-top:0;
+  }
+  #title{
+      text-align:left;
+  }
+  .navbar{
+    padding-left:0;
+  }
+  #title .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    color:cyan;
+  }
+  .nav-item{
+    padding:0 8px;
+  }
+  .nav-link{
+    font-size: 1rem;
+    color:white;
+    font-family: "Montserrat-light";
+  }
+  .download-button{
+    margin:1.5% 1% 1% 0;
+  } 
+  .apple{
+    height: 15rem;
+    margin-top: -10rem;
+    margin-left: 25rem;
+    text-align: center;
+  }
+  
+  .search{
+    width:20rem;
+    height: 1.6rem;
+    text-align:center;
+    background-color: black;
+    color:rgba(255,255,255,.5);
+    border-radius: 3rem;
+    font-weight: bold;
+  }
+  .find{
+    width:2rem;
+    height: 1.6rem;
+    text-align:center;
+    background-color: black;
+    color:rgba(255,255,255,.5);
+    border:0;
+  }
+.tech{
+  margin-top:8rem;
+  }
+
+/* Laptop section */
+.category{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .name{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .brand{
+    font-size:2rem;
+  }
+
+  .prod-col{
+    padding:3% 2%;
+  }
+  
+/* Product-Screen-Page */
+
+.back-home {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.fa-home{
+  color:rgb(226, 63, 14);
+}
+/*Cart Screen */
+th h3{
+  font-size: 1.2rem;
+}
+.cart-img{
+  position:absolute;
+  left:3.5rem;
+  height: 2.5rem;
+}
+
+select{
+  border:0;
+  background-color: white;
+}
+.delete{
+    border:0;
+}
+.prd-name{
+  font-size: 1.2rem;
+}
+ /*Sign in page */
+
+.form{
+     border:0.1rem grey ;
+     width:30rem;
+    margin:6rem auto;
+}
+  /*create product page*/
+ .product-box form{
+     margin:2rem auto;
+ }
+ .create-header{
+     margin-top:1rem;
+ }
+ .create-table{
+     margin-top:5rem;
+ }
+  
+
+/*Shipping Product*/
+.shipping-box form{
+    margin:4rem auto;
+}
+.ship-header{
+    margin-top:5rem;
+}
+/*Payment Screen*/
+.radio button{
+    margin-top:4rem;
+}
+
+.payment{
+    color:blue;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.pay-btn{
+    margin-top: 3rem;
+}
+.payment-box{
+    border: 0.2rem grey  solid;
+    width:33%;
+    height: 18rem;
+    margin:3rem auto; 
+}  
+
+/*place order screen*/
+
+.main-place>.box:nth-child(odd){
+    background-color: #f0f0f0;
+}
+.box{
+    border:1px black ;
+}
+.prod-shipping p{
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.shipping-box h2{
+   margin-top:0;
+}
+.cart-image {
+    width:10rem;
+    height:6rem;
+}
+
+/*Admin page */
+.admin{
+    margin:7rem auto;
+}
+.prd-btn{
+margin-right:3rem;
+}
+
+/*Success*/
+/* .success{
+  position:absolute;
+  top:0rem;
+  left:36rem;
+} */
+
+
+
+
+
+
+
+
+
